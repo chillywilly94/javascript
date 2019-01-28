@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+<body id="bcolor">
+	
+
+	<div>
+    
+    	<button onclick="welcome()">Click me</button> <br>
+   		<p id="text">Hi.</p> <br>
+
+    	<button onclick="chtext()">Change text</button>
+    	<hr>
+
+    </div>
+
+    <div>
+    	<img src="hello.png" onmouseover="chimg()" id="img">
+    	<hr>
+    </div>
+
+    <div>
+    	<input type="radio" name="gender" id="male"> Male <br>
+    	<input type="radio" name="gender" id="female"> Female <br>
+   		<button onclick="radio()">Check selected Gender</button>
+   		<div id="prikaz">
+   			
+   		</div>
+   		<hr>
+    </div>
+    <div>
+    	<form onsubmit="return chlocation();">
+    		<label>First Name</label>
+    		<input id="fn" type="" name="" placeholder="Your first name"> <br>
+    		<label>Last Name</label>
+    		<input id="ln" type="" name="" placeholder="Your last name"> <br>
+    		<label>Favourite animal</label>
+    		<input id="animal" type="" name="" placeholder="Your favourite animal"> <br>
+
+    		<input type="submit" name="" value="Submit"> <br>
+    		<button onclick="showInput(); return false;">Show input</button>
+    	</form>
+    	<div id="prikaz2">
+    		
+    	</div>
+    </div>
+    
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
